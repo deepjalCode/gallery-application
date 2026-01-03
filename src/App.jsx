@@ -34,6 +34,7 @@ const App =  () => {
       </div>
       <div className='flex justify-center items-center p-4 gap-6 fixed left-[50%] -translate-x-1/2 -translate-y-1/2'>
         <button 
+        style={{opacity:indx==1?0.5:1}}
         onClick={()=>{
           if(indx>1){
             setIndx(indx-1)
